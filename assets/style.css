@@ -166,7 +166,15 @@ header{
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
-
+.moveAble{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
 
 
 

@@ -1,0 +1,59 @@
+
+
+
+
+/*Service*/
+.section-heading{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.section-heading h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    position: center;
+    color: darkgray;
+}
+.section-heading h6{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.has-margin-right{
+    margin-right: 5rem;
+}
+.underElectronic{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33.33333333333rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+}
+.software{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.software h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+}
+
+.hardware{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.hardware h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+}
+
+
+
+
