@@ -74,10 +74,10 @@ header{
     user-select: none  ;
 
 }
-
-.landing-text h6{
-    font-size: 2rem;
-    font-weight: 300;
+.welcome-text h3{
+    color: red;
+    padding: 4rem;
+    bottom: 3rem;
 }
 
 
@@ -88,6 +88,10 @@ header{
     grid-template-columns: repeat(auto-fit, minmax(33.33333333333rem, 1fr));
     grid-gap: 2.5rem;
     text-align: center;
+}
+
+.section-heading h1{
+    padding: 3rem;
 }
 .electrical{
     display: flex;
