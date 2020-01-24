@@ -143,6 +143,18 @@ header{
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
+.multimedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.multimedia h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+}
 
 .vehicle{
     display: flex;
