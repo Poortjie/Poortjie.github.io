@@ -1,87 +1,96 @@
 /*Global change */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 10px;
     font-family: "Bell MT", sans-serif;
     color: darkslategray;
 }
-body{
+
+body {
     width: 100%;
     height: 100%;
-
 }
-section{
+
+section {
     padding: 6rem 0;
 }
-p{
+
+p {
     font-size: 2rem;
-    font-weight: 300 ;
+    font-weight: 300;
 }
 
-.container{
+.container {
     width: 80%;
     max-width: 120rem;
     height: 100%;
     margin: 0 auto;
     position: relative;
 }
-.section-heading{
+
+.section-heading {
     text-align: center;
     margin-bottom: 5rem;
 }
-.section-heading h1{
+
+.section-heading h1 {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 400;
     position: center;
     color: darkgray;
 }
-.section-heading h6{
+
+.section-heading h6 {
     font-size: 1.6rem;
     font-weight: 300;
 }
-.has-margin-right{
+
+.has-margin-right {
     margin-right: 5rem;
 }
 
 /*Header*/
-header{
+header {
     width: 100%;
     height: 20vh;
 }
-.welcome-text{
+
+.welcome-text {
     position: absolute;
     top: 15%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
     /*z-index: 1;*/
 
 }
 
-.welcome-text h1{
+.welcome-text h1 {
     font-size: 10rem;
     font-family: "The Historia Demo", sans-serif;
     background: linear-gradient(to top, #2dff00, #00d2fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
-    user-select: none  ;
+    user-select: none;
 
 }
-.welcome-text h3{
+
+.welcome-text h3 {
     color: red;
     bottom: 3rem;
 }
 
 
 /*Service*/
-.offers{
+.offers {
     margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33.33333333333rem, 1fr));
@@ -89,126 +98,147 @@ header{
     text-align: center;
 }
 
-.section-heading h1{
+.section-heading h1 {
     padding: 3rem;
 }
-.electrical{
+
+.electrical {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
-.electrical h1{
+
+.electrical h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
 
-.electronic{
+.electronic {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
-.electronic h1{
+
+.electronic h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
 
-.transport{
+.transport {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
-.transport h1{
+
+.transport h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
 
-.house-stuff{
+.house-stuff {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
-.house-stuff h1{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 2rem -2px 2rem 0;
-}
-.multimedia{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-.multimedia h1{
+
+.house-stuff h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
 
-.vehicle{
+.multimedia {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
-.vehicle h1{
+
+.multimedia h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
 
-.others{
+.vehicle {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
-.others h1{
+
+.vehicle h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
-.moveAble{
+
+.others {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.others h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+}
+
+.moveAble {
     position: fixed;
     top: 0;
     right: 0;
 }
+
 a {
     text-decoration: none;
     color: darkslategray;
 }
 
 @media only screen and (max-device-width: 480px) {
-    .welcome-text h1{
+    .welcome-text {
+        padding-top: 1rem;
+    }
+    .welcome-text h1 {
         font-size: 5rem;
         font-family: "The Historia Demo", sans-serif;
         background: linear-gradient(to top, #2dff00, #00d2fd);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding: 1rem;
-        user-select: none  ;
+        user-select: none;
 
     }
-    .moveAble{
+
+    .moveAble {
         position: fixed;
         text-align: center;
         width: 100%;
         margin: 0 auto;
         background: aliceblue;
-    }
 
+    }
+    *{
+        width: 100%;
+    }
+    body {
+
+    }
 }
 

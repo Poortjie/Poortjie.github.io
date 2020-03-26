@@ -1,5 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
+
+html {
+    font-family: "Bell MT", sans-serif;
+    color: darkslategray;
+    height:100%;
+}
+body {
+    padding: 0 100px 100px;
+    height:100%;
+}
+
+
 .details {
     margin-top: 10rem;
     display: grid;
@@ -8,15 +20,16 @@
     text-align: center;
 }
 
-.peter {
+.musa {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    min-height: 100vh;
 }
 
-.peter h1 {
+.musa h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
@@ -70,10 +83,7 @@
     width: 100%;
 }
 
-body {
-    padding: 0 100px 100px;
-    background-color: #CDE !important;
-}
+
 
 h1#header {
     text-align: center;
@@ -102,6 +112,7 @@ article {
     border-radius: 150px;
     cursor: pointer;
 }
+
 article .img-wrapper {
     position: absolute;
     top: -10px;
@@ -117,6 +128,7 @@ article .img-wrapper {
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
 }
+
 article .img-wrapper img {
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
@@ -127,6 +139,7 @@ article .img-wrapper img {
     transition: all 0.2s;
     width: 150px;
 }
+
 article h1 {
     height: 75px;
     line-height: 75px;
@@ -138,9 +151,11 @@ article h1 {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }
+
 article p {
     color: #888;
 }
+
 article a {
     position: absolute;
     display: block;
@@ -166,6 +181,7 @@ article a {
     font-family: "Pacifico";
     text-shadow: 0 1px 1px #AAA;
 }
+
 article:hover .img-wrapper {
     padding: 5px;
     -moz-transform: rotate(5deg);
@@ -173,9 +189,11 @@ article:hover .img-wrapper {
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
 }
+
 article:hover .img-wrapper img {
     width: 160px;
 }
+
 article:hover a {
     opacity: 1;
 }
@@ -188,6 +206,7 @@ article:hover a {
     border-radius: 3px;
     margin-top: 75px;
 }
+
 .bloc article .img-wrapper {
     position: relative;
     top: -85px;
@@ -195,17 +214,24 @@ article:hover a {
     left: inherit;
     margin: auto auto -100px;
 }
+
 .bloc article h1 {
     font-size: 14px;
     height: 38px;
     line-height: 38px;
 }
+
 .bloc article p {
     font-size: 12px;
 }
+
 .bloc article a {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     line-height: 255px;
+}
+@media only screen and (max-device-width: 480px) {
+
+
 }
