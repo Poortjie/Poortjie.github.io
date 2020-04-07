@@ -232,6 +232,11 @@ article:hover a {
     line-height: 255px;
 }
 @media only screen and (max-device-width: 480px) {
-
+    .section-heading {
+        padding: 4rem;
+    }
+    .details{
+        padding: 4rem;
+    }
 
 }
