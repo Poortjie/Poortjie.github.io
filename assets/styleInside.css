@@ -1,87 +1,44 @@
-/*Service*/
-* {
+
+div {
+    width: 200px;
+    margin: 30px;
+}
+
+h2 {
+    font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-html {
-    font-size: 10px;
-    font-family: "Bell MT", sans-serif;
-    color: darkslategray;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    width: 100%;
-    height: 100%;
+li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
 }
 
-.section-heading {
-    text-align: center;
-    margin-bottom: 5rem;
+li:last-child {
+    border: none;
 }
 
-.section-heading h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    position: center;
-    color: darkgray;
+li a {
+    text-decoration: none;
+    color: #000;
+
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    display: block;
+    width: 200px;
 }
 
-.section-heading h6 {
-    font-size: 1.6rem;
-    font-weight: 300;
+li a:hover {
+    font-size: 30px;
+    background: #f6f6f6;
 }
-
-.has-margin-right {
-    margin-right: 5rem;
-}
-
-.underElectronic {
-    margin-top: 10rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(33.33333333333rem, 1fr));
-    grid-gap: 2.5rem;
-    text-align: center;
-}
-
-.software {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-
-.software h1 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 2rem -2px 2rem 0;
-}
-
-.hardware {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-
-.hardware h1 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 2rem -2px 2rem 0;
-}
-.underElectronic p {
-    font-size: 2rem;
-}
-
-@media only screen and (max-device-width: 480px) {
-
-    .section-heading {
-        padding: 4rem;
-    }
-}
-
-
